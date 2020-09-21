@@ -17,10 +17,7 @@ public class Stack {
 		Node previousTop = top;
 		top = new Node();
 		top.setData(data);
-		if(isEmpty()) {
-			bottom = top;
-		}
-		else {
+		if(!isEmpty()) {
 			top.setNext(previousTop);
 		}
 		sizeOfStack++;
