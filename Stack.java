@@ -73,7 +73,7 @@ public class Stack {
 	
 	//Check if Stack is Empty
 	public boolean isEmpty(){
-		return sizeOfStack == 0 ? true : false;
+		return sizeOfStack == 0;
 	}
 	
 }
